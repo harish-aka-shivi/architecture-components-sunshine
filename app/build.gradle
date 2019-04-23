@@ -53,4 +53,8 @@ dependencies {
     androidTestCompile "com.android.support.test:rules:$support_test_version"
     compile "android.arch.persistence.room:runtime:$arch_version"
     annotationProcessor "android.arch.persistence.room:compiler:$arch_version"
+
+    compile "android.arch.lifecycle:runtime:$arch_version"
+    compile "android.arch.lifecycle:extensions:$arch_version"
+    annotationProcessor "android.arch.lifecycle:compiler:$arch_version"
 }
